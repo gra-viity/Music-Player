@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Soul Fusion</string>
+    <string name="title_Song">Song</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_Folder">Folders</string>
+
+    <string name="title_activity_splash">splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permission">We will need a few permission to provide you a personalised experience</string>
+    <string name="storage_permission">Storage Permission</string>
+    <string name="to_fetch_song_list_from_storage">To fetch song list from storage</string>
+    <string name="call_permission">Call Permission</string>
+    <string name="to_let_app_decide_when_to_play_and_pause_music_during_incoming_call">To let app decide when to play and pause music during incoming call</string>
+
+    <string name="song_notification_title_template">Song: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="song_notification_placeholder_text_template">You said %1$s and lorem ipsum dolor
+        sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel semper
+        venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis. Pellentesque
+        vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper ornare lacus. Duis
+        ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis viverra rhoncus sit amet
+        nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+</resources>

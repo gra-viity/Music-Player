@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/song_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="2dp"
+
+    android:elevation="10dp"
+    app:cardCornerRadius="5dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/custom_album_view"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/splash"
+            android:contentDescription="Alumb Art" />
+
+
+        <TextView
+            android:id="@+id/custom_songname_view"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/custom_album_view"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="73dp"
+            android:contentDescription="Song Name"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingEnd="15dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Song Name"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/play_pause_button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:visibility="invisible"
+            android:src="@drawable/ic_play_arrow_black_24dp" />
+
+
+        <TextView
+            android:id="@+id/custom_duration_view"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+
+            android:layout_alignBottom="@+id/custom_album_view"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:contentDescription="song duration"
+            android:text="duration"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/custom_artist_view"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_alignStart="@+id/custom_songname_view"
+
+            android:layout_alignBottom="@+id/custom_album_view"
+            android:contentDescription="Artist Name"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Artist Name"
+            android:textSize="10sp" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
+
+
+

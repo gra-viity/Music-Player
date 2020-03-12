@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ab47bc</color>
+    <color name="colorPrimaryDark">#7b1fa2</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="bgBottomNavigation">#ff8f00</color>
+    <color name="bgBottomNavigation1">#ef5350</color>
+    <color name="bgBottomNavigation4">#ffd600</color>
+
+    <color name="bottomtab_item_resting">#36000000</color>
+    <color name="bottomtab_item_disabled">#1e000000</color>
+
+    <color name="bottomtab_0">#ab47bc</color>
+    <color name="bottomtab_1">#f44336</color>
+    <color name="bottomtab_2">#33b3cc</color>
+
+    <color name="colorPrimaryNight">#3F51B5</color>
+    <color name="colorPrimaryDarkNight">#303F9F</color>
+    <color name="colorAccentNight">#FFC107</color>
+    <color name="bg_dark">#263238</color>
+
+    <color name="colorPrimary1">@android:color/white</color>
+    <color name="colorPrimaryDark1">#CCCCCC</color>
+    <color name="colorAccent1">#7986cb</color>
+    <color name="bg_light">#fafafa</color>
+
+    <color name="divider_light">#0c000000</color>
+
+    <color name="material_light_primary_text">#DE000000</color>
+    <color name="material_light_hint_text">#61000000</color>
+    <color name="material_light_active_icon">#8A000000</color>
+    <color name="material_ripple_light">#1F000000</color>
+    <color name="divider_color">#1F000000</color>
+    <color name="active_icon_color">#8A000000</color>
+    <color name="cards_and_dialogs_color">@android:color/white</color>
+    <color name="quantum_grey_600">#757575</color>
+    <color name="seekBar_color">#aa00ff</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
